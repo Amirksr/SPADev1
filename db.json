@@ -1,0 +1,122 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "دوره ریکت",
+      "text": "آموزش پروژه محور ریکت و ریداکس از مقدماتی تا پیشرفته",
+      "img": "https://next1code.ir/wp-content/uploads/2022/12/react-cover-500x286.jpg",
+      "writter": "میلاد بهرامی",
+      "courseTime": 50,
+      "price": 2900000
+    },
+    {
+      "id": "2",
+      "title": "دوره بوت استرپ",
+      "text": "آموزش بوت استرپ 5.2 پروژه محور با تمرین های زیاد",
+      "img": "https://next1code.ir/wp-content/uploads/2022/10/bootstrap-500x286.png",
+      "writter": "میلاد بهرامی",
+      "courseTime": 10,
+      "price": 300000
+    },
+    {
+      "id": "3",
+      "title": "دوره جاوا اسکریپت",
+      "text": "آموزش صفر تا صد جاوا اسکریپت به صورت پروژه محور",
+      "img": "https://next1code.ir/wp-content/uploads/2021/08/couse-cover-500x286.jpg",
+      "writter": "میلاد بهرامی",
+      "courseTime": 65,
+      "price": 1900000
+    },
+    {
+      "id": "4",
+      "title": "دوره طراحی ریسپانسیو",
+      "text": "آموزش طراحی وب ریسپانسیو با مدیا کوئری ها و فلکس باکس",
+      "img": "https://next1code.ir/wp-content/uploads/2021/06/rwd-couse-cover-500x286.jpg",
+      "writter": "میلاد بهرامی",
+      "courseTime": 8,
+      "price": 400000
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "image": "https://dl.next1code.ir/images/react/article1.webp",
+      "title": "عنوان مقاله اول",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": " میلاد بهرامی",
+      "category": "برنامه نویسی وب",
+      "readingTime": 15
+    },
+    {
+      "id": "2",
+      "image": "https://dl.next1code.ir/images/react/article2.webp",
+      "title": "عنوان مقاله دوم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "سالار حقیقت",
+      "category": "رابط کاربری",
+      "readingTime": 11
+    },
+    {
+      "id": "3",
+      "image": "https://dl.next1code.ir/images/react/article3.webp",
+      "title": "عنوان مقاله سوم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "علی نظری",
+      "category": "طراحی وب",
+      "readingTime": 14
+    },
+    {
+      "id": "4",
+      "image": "https://dl.next1code.ir/images/react/article4.webp",
+      "title": "عنوان مقاله چهارم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "محمد محمدی",
+      "category": "برنامه نویسی وب",
+      "readingTime": 16
+    },
+    {
+      "id": "5",
+      "image": "https://dl.next1code.ir/images/react/article5.webp",
+      "title": "عنوان مقاله پنجم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "صاحب محمدی",
+      "category": "هوش مصنوعی",
+      "readingTime": 13
+    },
+    {
+      "id": "6",
+      "image": "https://dl.next1code.ir/images/react/article6.webp",
+      "title": "عنوان مقاله ششم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "عباس مقدم",
+      "category": "رابط کاربری",
+      "readingTime": 15
+    },
+    {
+      "id": "7",
+      "image": "https://dl.next1code.ir/images/react/article7.webp",
+      "title": "عنوان مقاله هفتم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "جادی",
+      "category": "برنامه نویسی وب",
+      "readingTime": 20
+    },
+    {
+      "id": "8",
+      "image": "https://dl.next1code.ir/images/react/article8.webp",
+      "title": "عنوان مقاله هشتم",
+      "desc": "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است .",
+      "writter": "اشکان رحمانی",
+      "category": "رابط کاربری",
+      "readingTime": 6
+    }
+  ],
+  "users" : [
+    {"userName" : "milad",
+     "Password" : "12345"
+    },
+    {"userName" : "amir",
+      "Password" : "123456"
+    }
+  ]
+}
