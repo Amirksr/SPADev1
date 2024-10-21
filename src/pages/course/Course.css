@@ -1,0 +1,31 @@
+.courseCardContainer {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 10px;
+  }
+  .cardHeader {
+    width: 85%;
+    position: relative;
+    top: -20px;
+    margin: auto;
+    text-align: center;
+  }
+  .cardHeader img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .cardBody {
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  .cardFooter {
+    padding: 0 0 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .cardFooter button {
+    margin: 0 15px;
+  }
+  
