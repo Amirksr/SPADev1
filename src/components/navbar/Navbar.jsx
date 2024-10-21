@@ -37,7 +37,7 @@ function MyNavbar() {
               <NavLink to="/about" className="nav-link">
                 درباره ما{" "}
               </NavLink>
-              <NavLink to="/article" className="nav-link">
+              <NavLink to="/articles" className="nav-link">
                 مقالات
               </NavLink>
               <NavLink to="/panel" className="nav-link">
