@@ -9,6 +9,8 @@ import Course from "./pages/course/Course";
 import EditArticle from "./pages/editArticle/EditArticle";
 import AddArticle from "./pages/addArticle/AddArticle";
 import Article from "./pages/article/Article";
+import PrivateRoute from "./components/privateRoute/PrivateRoute";
+
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/panel" element={<Panel />} />
+        <Route path="/panel" element={<PrivateRoute><Panel /></PrivateRoute>} />
         <Route path="/article/:articleId" element={<Article />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/course/:courseId" element={<Course />} />

@@ -1,11 +1,15 @@
 import MyNavbar from '../../components/navbar/Navbar';
+import { Container } from "react-bootstrap";
+
 import './Panel.css'
 function Panel() {
     return(
-        <div>
+        <>
             <MyNavbar />
-            <h1>Panel page</h1>
-        </div>
+            <Container>
+                <h1>Panel page</h1>
+            </Container>
+        </>
     )
 }
 export default Panel;
