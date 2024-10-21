@@ -1,0 +1,14 @@
+.navbar {
+    background-color: rgb(186, 182, 253);
+  }
+  .navbar-brand {
+    font-family: "Lalezar";
+    font-size: 27px;
+  }
+  .active {
+    border-bottom: 2px solid black !important;
+  }
+  .offcanvas-title {
+    font-family: "Lalezar";
+    font-size: 27px;
+  }
