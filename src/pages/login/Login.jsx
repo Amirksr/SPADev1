@@ -13,7 +13,7 @@ function Login() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get(`http://localhost:5000/users`).then((response) => setUsersInfo(response.data));
+        axios.get(`https://json-server-master-six.vercel.app/users`).then((response) => setUsersInfo(response.data));
     }, []);
 
     const submitHandler = () => {

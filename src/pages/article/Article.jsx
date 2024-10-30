@@ -16,7 +16,7 @@ function Article() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/articles/${articleId}`)
+      .get(`https://json-server-master-six.vercel.app/articles/${articleId}`)
       .then((response) => setArticleData(response.data));
   }, []);
 
@@ -35,7 +35,7 @@ function Article() {
           title: "مقاله با موفقیت حذف شد",
           icon: "success",
         });
-        axios.delete(`http://localhost:5000/articles/${articleId}`);
+        axios.delete(`https://json-server-master-six.vercel.app/articles/${articleId}`);
         navigate("/articles");
       }
     });

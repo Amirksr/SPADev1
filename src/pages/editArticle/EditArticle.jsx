@@ -11,12 +11,12 @@ function EditArticle() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/articles/${articleId}`)
+      .get(`https://json-server-master-six.vercel.app/articles/${articleId}`)
       .then((response) => setArticleData(response.data));
   }, []);
 
   const editArticleHandler = () => {
-    axios.put(`http://localhost:5000/articles/${articleId}` , articleData)
+    axios.put(`https://json-server-master-six.vercel.app/articles/${articleId}` , articleData)
     Swal.fire({
         title : 'مقاله با موفقیت ویرایش شد',
         timer: 1500,

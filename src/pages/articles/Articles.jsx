@@ -10,7 +10,7 @@ import { MdOutlinePostAdd } from "react-icons/md";
 function Articles() {
     const [articlesData, setArticlesData] = useState([]);
     useEffect(() => {
-        axios.get("http://localhost:5000/articles").then((response) => setArticlesData(response.data));
+        axios.get("https://json-server-master-six.vercel.app/articles").then((response) => setArticlesData(response.data));
     }, []);
     return (
         <div>

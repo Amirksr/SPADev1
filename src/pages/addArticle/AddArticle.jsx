@@ -21,7 +21,7 @@ function AddArticle() {
   };
 
   const addArticleHandler = () => {
-    axios.post("http://localhost:5000/articles", formData);
+    axios.post("https://json-server-master-six.vercel.app/articles", formData);
     Swal.fire({
       title: "مقاله جدید با موفقیت ساخته شد",
       timer: 1500,

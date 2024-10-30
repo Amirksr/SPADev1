@@ -11,7 +11,7 @@ function Home() {
   const [courses, setCourses] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:5000/courses")
+      .get("https://json-server-master-six.vercel.app/courses")
       .then((response) => setCourses(response.data));
   }, []);
   return (
